@@ -1,0 +1,129 @@
+.container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title {
+  color: #0070f3;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.description {
+  text-align: center;
+  color: #666;
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+/* 이미지 관련 스타일 */
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.imageInfo {
+  margin-top: 1rem;
+}
+
+.imageInfo ul {
+  list-style: none;
+  padding: 0;
+}
+
+.imageInfo li {
+  padding: 0.5rem 0;
+  color: #666;
+}
+
+.responsiveImage {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.objectFit {
+  object-fit: cover;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.galleryItem {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.galleryImage {
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.galleryItem:hover .galleryImage {
+  transform: scale(1.05);
+}
+
+/* 코드 예제 스타일 */
+.codeExample {
+  margin-top: 2rem;
+  background: #f7f7f7;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.codeExample h2 {
+  color: #0070f3;
+  margin-bottom: 1rem;
+}
+
+.codeExample pre {
+  margin: 0;
+  padding: 1rem;
+  background: #f1f1f1;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+.codeExample code {
+  font-family: monospace;
+}
+
+/* 환경 변수 관련 스타일 */
+.envVars {
+  background: #f5f5f5;
+  padding: 1rem;
+  border-radius: 5px;
+  font-family: monospace;
+  margin: 1rem 0;
+}
+
+.priorityList {
+  padding-left: 1.5rem;
+}
+
+.priorityList li {
+  padding: 0.5rem 0;
+  color: #666;
+}
